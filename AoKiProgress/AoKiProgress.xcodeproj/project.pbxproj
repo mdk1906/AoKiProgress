@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7D420B1250B46A2009A275D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D420B0250B46A2009A275D /* AppDelegate.m */; };
+		F7D420B4250B46A2009A275D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D420B3250B46A2009A275D /* SceneDelegate.m */; };
+		F7D420B7250B46A2009A275D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D420B6250B46A2009A275D /* ViewController.m */; };
+		F7D420BA250B46A2009A275D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D420B8250B46A2009A275D /* Main.storyboard */; };
+		F7D420BC250B46A5009A275D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D420BB250B46A5009A275D /* Assets.xcassets */; };
+		F7D420BF250B46A5009A275D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D420BD250B46A5009A275D /* LaunchScreen.storyboard */; };
+		F7D420C2250B46A5009A275D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D420C1250B46A5009A275D /* main.m */; };
+		F7D420CC250B46A5009A275D /* AoKiProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D420CB250B46A5009A275D /* AoKiProgressTests.m */; };
+		F7D420D7250B46A5009A275D /* AoKiProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D420D6250B46A5009A275D /* AoKiProgressUITests.m */; };
+		F7D420EB250B46FC009A275D /* AoKiHelperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D420E5250B46FC009A275D /* AoKiHelperManager.m */; };
+		F7D420EC250B46FC009A275D /* progress_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D420E8250B46FC009A275D /* progress_bg.png */; };
+		F7D420ED250B46FC009A275D /* progress_acr_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D420E9250B46FC009A275D /* progress_acr_bg.png */; };
+		F7D420EE250B46FC009A275D /* AoKiProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D420EA250B46FC009A275D /* AoKiProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7D420C8250B46A5009A275D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D420A4250B46A2009A275D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D420AB250B46A2009A275D;
+			remoteInfo = AoKiProgress;
+		};
+		F7D420D3250B46A5009A275D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D420A4250B46A2009A275D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D420AB250B46A2009A275D;
+			remoteInfo = AoKiProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7D420AC250B46A2009A275D /* AoKiProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AoKiProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D420AF250B46A2009A275D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7D420B0250B46A2009A275D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7D420B2250B46A2009A275D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F7D420B3250B46A2009A275D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F7D420B5250B46A2009A275D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7D420B6250B46A2009A275D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7D420B9250B46A2009A275D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7D420BB250B46A5009A275D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7D420BE250B46A5009A275D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7D420C0250B46A5009A275D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D420C1250B46A5009A275D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7D420C7250B46A5009A275D /* AoKiProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AoKiProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D420CB250B46A5009A275D /* AoKiProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AoKiProgressTests.m; sourceTree = "<group>"; };
+		F7D420CD250B46A5009A275D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D420D2250B46A5009A275D /* AoKiProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AoKiProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D420D6250B46A5009A275D /* AoKiProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AoKiProgressUITests.m; sourceTree = "<group>"; };
+		F7D420D8250B46A5009A275D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D420E5250B46FC009A275D /* AoKiHelperManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AoKiHelperManager.m; sourceTree = "<group>"; };
+		F7D420E6250B46FC009A275D /* AoKiProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AoKiProgressView.h; sourceTree = "<group>"; };
+		F7D420E7250B46FC009A275D /* AoKiHelperManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AoKiHelperManager.h; sourceTree = "<group>"; };
+		F7D420E8250B46FC009A275D /* progress_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress_bg.png; sourceTree = "<group>"; };
+		F7D420E9250B46FC009A275D /* progress_acr_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress_acr_bg.png; sourceTree = "<group>"; };
+		F7D420EA250B46FC009A275D /* AoKiProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AoKiProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D420A9250B46A2009A275D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D420C4250B46A5009A275D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D420CF250B46A5009A275D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7D420A3250B46A2009A275D = {
+			isa = PBXGroup;
+			children = (
+				F7D420AE250B46A2009A275D /* AoKiProgress */,
+				F7D420CA250B46A5009A275D /* AoKiProgressTests */,
+				F7D420D5250B46A5009A275D /* AoKiProgressUITests */,
+				F7D420AD250B46A2009A275D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7D420AD250B46A2009A275D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D420AC250B46A2009A275D /* AoKiProgress.app */,
+				F7D420C7250B46A5009A275D /* AoKiProgressTests.xctest */,
+				F7D420D2250B46A5009A275D /* AoKiProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D420AE250B46A2009A275D /* AoKiProgress */ = {
+			isa = PBXGroup;
+			children = (
+				F7D420E4250B46FC009A275D /* AoKiProgressView */,
+				F7D420AF250B46A2009A275D /* AppDelegate.h */,
+				F7D420B0250B46A2009A275D /* AppDelegate.m */,
+				F7D420B2250B46A2009A275D /* SceneDelegate.h */,
+				F7D420B3250B46A2009A275D /* SceneDelegate.m */,
+				F7D420B5250B46A2009A275D /* ViewController.h */,
+				F7D420B6250B46A2009A275D /* ViewController.m */,
+				F7D420B8250B46A2009A275D /* Main.storyboard */,
+				F7D420BB250B46A5009A275D /* Assets.xcassets */,
+				F7D420BD250B46A5009A275D /* LaunchScreen.storyboard */,
+				F7D420C0250B46A5009A275D /* Info.plist */,
+				F7D420C1250B46A5009A275D /* main.m */,
+			);
+			path = AoKiProgress;
+			sourceTree = "<group>";
+		};
+		F7D420CA250B46A5009A275D /* AoKiProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D420CB250B46A5009A275D /* AoKiProgressTests.m */,
+				F7D420CD250B46A5009A275D /* Info.plist */,
+			);
+			path = AoKiProgressTests;
+			sourceTree = "<group>";
+		};
+		F7D420D5250B46A5009A275D /* AoKiProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D420D6250B46A5009A275D /* AoKiProgressUITests.m */,
+				F7D420D8250B46A5009A275D /* Info.plist */,
+			);
+			path = AoKiProgressUITests;
+			sourceTree = "<group>";
+		};
+		F7D420E4250B46FC009A275D /* AoKiProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				F7D420E7250B46FC009A275D /* AoKiHelperManager.h */,
+				F7D420E5250B46FC009A275D /* AoKiHelperManager.m */,
+				F7D420E6250B46FC009A275D /* AoKiProgressView.h */,
+				F7D420EA250B46FC009A275D /* AoKiProgressView.m */,
+				F7D420E8250B46FC009A275D /* progress_bg.png */,
+				F7D420E9250B46FC009A275D /* progress_acr_bg.png */,
+			);
+			path = AoKiProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7D420AB250B46A2009A275D /* AoKiProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D420DB250B46A5009A275D /* Build configuration list for PBXNativeTarget "AoKiProgress" */;
+			buildPhases = (
+				F7D420A8250B46A2009A275D /* Sources */,
+				F7D420A9250B46A2009A275D /* Frameworks */,
+				F7D420AA250B46A2009A275D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AoKiProgress;
+			productName = AoKiProgress;
+			productReference = F7D420AC250B46A2009A275D /* AoKiProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7D420C6250B46A5009A275D /* AoKiProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D420DE250B46A5009A275D /* Build configuration list for PBXNativeTarget "AoKiProgressTests" */;
+			buildPhases = (
+				F7D420C3250B46A5009A275D /* Sources */,
+				F7D420C4250B46A5009A275D /* Frameworks */,
+				F7D420C5250B46A5009A275D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D420C9250B46A5009A275D /* PBXTargetDependency */,
+			);
+			name = AoKiProgressTests;
+			productName = AoKiProgressTests;
+			productReference = F7D420C7250B46A5009A275D /* AoKiProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7D420D1250B46A5009A275D /* AoKiProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D420E1250B46A5009A275D /* Build configuration list for PBXNativeTarget "AoKiProgressUITests" */;
+			buildPhases = (
+				F7D420CE250B46A5009A275D /* Sources */,
+				F7D420CF250B46A5009A275D /* Frameworks */,
+				F7D420D0250B46A5009A275D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D420D4250B46A5009A275D /* PBXTargetDependency */,
+			);
+			name = AoKiProgressUITests;
+			productName = AoKiProgressUITests;
+			productReference = F7D420D2250B46A5009A275D /* AoKiProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D420A4250B46A2009A275D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = mdkmdk;
+				TargetAttributes = {
+					F7D420AB250B46A2009A275D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F7D420C6250B46A5009A275D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F7D420AB250B46A2009A275D;
+					};
+					F7D420D1250B46A5009A275D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F7D420AB250B46A2009A275D;
+					};
+				};
+			};
+			buildConfigurationList = F7D420A7250B46A2009A275D /* Build configuration list for PBXProject "AoKiProgress" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7D420A3250B46A2009A275D;
+			productRefGroup = F7D420AD250B46A2009A275D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D420AB250B46A2009A275D /* AoKiProgress */,
+				F7D420C6250B46A5009A275D /* AoKiProgressTests */,
+				F7D420D1250B46A5009A275D /* AoKiProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D420AA250B46A2009A275D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D420BF250B46A5009A275D /* LaunchScreen.storyboard in Resources */,
+				F7D420BC250B46A5009A275D /* Assets.xcassets in Resources */,
+				F7D420BA250B46A2009A275D /* Main.storyboard in Resources */,
+				F7D420EC250B46FC009A275D /* progress_bg.png in Resources */,
+				F7D420ED250B46FC009A275D /* progress_acr_bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D420C5250B46A5009A275D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D420D0250B46A5009A275D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D420A8250B46A2009A275D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D420B7250B46A2009A275D /* ViewController.m in Sources */,
+				F7D420B1250B46A2009A275D /* AppDelegate.m in Sources */,
+				F7D420C2250B46A5009A275D /* main.m in Sources */,
+				F7D420EE250B46FC009A275D /* AoKiProgressView.m in Sources */,
+				F7D420EB250B46FC009A275D /* AoKiHelperManager.m in Sources */,
+				F7D420B4250B46A2009A275D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D420C3250B46A5009A275D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D420CC250B46A5009A275D /* AoKiProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D420CE250B46A5009A275D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D420D7250B46A5009A275D /* AoKiProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7D420C9250B46A5009A275D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D420AB250B46A2009A275D /* AoKiProgress */;
+			targetProxy = F7D420C8250B46A5009A275D /* PBXContainerItemProxy */;
+		};
+		F7D420D4250B46A5009A275D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D420AB250B46A2009A275D /* AoKiProgress */;
+			targetProxy = F7D420D3250B46A5009A275D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7D420B8250B46A2009A275D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D420B9250B46A2009A275D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7D420BD250B46A5009A275D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D420BE250B46A5009A275D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7D420D9250B46A5009A275D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7D420DA250B46A5009A275D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D420DC250B46A5009A275D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AoKiProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AoKiProgress.AoKiProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D420DD250B46A5009A275D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AoKiProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AoKiProgress.AoKiProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7D420DF250B46A5009A275D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AoKiProgressTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AoKiProgress.AoKiProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AoKiProgress.app/AoKiProgress";
+			};
+			name = Debug;
+		};
+		F7D420E0250B46A5009A275D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AoKiProgressTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AoKiProgress.AoKiProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AoKiProgress.app/AoKiProgress";
+			};
+			name = Release;
+		};
+		F7D420E2250B46A5009A275D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AoKiProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AoKiProgress.AoKiProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AoKiProgress;
+			};
+			name = Debug;
+		};
+		F7D420E3250B46A5009A275D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AoKiProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AoKiProgress.AoKiProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AoKiProgress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7D420A7250B46A2009A275D /* Build configuration list for PBXProject "AoKiProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D420D9250B46A5009A275D /* Debug */,
+				F7D420DA250B46A5009A275D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D420DB250B46A5009A275D /* Build configuration list for PBXNativeTarget "AoKiProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D420DC250B46A5009A275D /* Debug */,
+				F7D420DD250B46A5009A275D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D420DE250B46A5009A275D /* Build configuration list for PBXNativeTarget "AoKiProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D420DF250B46A5009A275D /* Debug */,
+				F7D420E0250B46A5009A275D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D420E1250B46A5009A275D /* Build configuration list for PBXNativeTarget "AoKiProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D420E2250B46A5009A275D /* Debug */,
+				F7D420E3250B46A5009A275D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7D420A4250B46A2009A275D /* Project object */;
+}
